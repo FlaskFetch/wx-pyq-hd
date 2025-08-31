@@ -1,0 +1,37 @@
+{
+  "name": "wx-pyq-hd",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "微信朋友圈高清图画布工具（2:1比例与<5MB体积提示），前端纯客户端处理，GitHub Pages 自动部署。",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5173 --strictPort",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "e2e:ui": "playwright test --ui"
+  },
+  "dependencies": {
+    "exifr": "^7.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.3.1",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.2.29",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.20",
+    "jsdom": "^26.1.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
